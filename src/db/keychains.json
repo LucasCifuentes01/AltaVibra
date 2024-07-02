@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Axolote_llavero",
+    "description": "7 x 5 x 3.5"
+  },
+  {
+    "name": "Broncosaurio_llavero",
+    "description": "6.5 x 3 x 5"
+  },
+  {
+    "name": "Caracol_llavero",
+    "description": "5.5 x 2 x 3.5"
+  },
+  {
+    "name": "Cocodrilo_llavero",
+    "description": "9.5 x 5 x 2"
+  },
+  {
+    "name": "Delfin_llavero",
+    "description": "9 x 5 x 3"
+  },
+  {
+    "name": "Gallina_llavero",
+    "description": "4 x 3.5 x 4"
+  },
+  {
+    "name": "Morza_llavero",
+    "description": "9 x 5 x 2.5"
+  },
+  {
+    "name": "Perrito_llavero",
+    "description": "8.5 x 4.5 x 2 5"
+  },
+  {
+    "name": "Perro_salchicha_llavero",
+    "description": "9 x 3.5 x 2"
+  },
+  {
+    "name": "Murcielago_llavero",
+    "description": "2 x 6.3 x 5.5"
+  },
+  {
+    "name": "Narval_llavero",
+    "description": "5.5 x 3.5 x 2"
+  },
+  {
+    "name": "Triceratops_llavero",
+    "description": "7 x 3.5 x 4"
+  },
+  {
+    "name": "Unicornio_llavero",
+    "description": "7 x 3.5 x 5"
+  },
+  {
+    "name": "Chimuelo_bebe_llavero",
+    "description": "11 x 5 x 3. 5"
+  },
+  {
+    "name": "Osito_llavero",
+    "description": "7.5 x 4 x 2"
+  },
+  {
+    "name": "T_Rex_llavero",
+    "description": "8 x 4.6 x 2"
+  },
+  {
+    "name": "gatito_llavero",
+    "description": "10 x 5 x 3,6"
+  },
+  {
+    "name": "Lagarto_dragon_llavero",
+    "description": "10 x 3 x 3"
+  },
+  {
+    "name": "Lagartija_llavero",
+    "description": "8 x 5.5 x 2"
+  },
+  {
+    "name": "Pingüino_llavero",
+    "description": "2 x 2.5 x 5"
+  },
+  {
+    "name": "Rana_llavero",
+    "description": "4.5 x 3 x 2.5"
+  },
+  {
+    "name": "Tiburon_llavero",
+    "description": "8.5 x 5 x 3"
+  }
+]

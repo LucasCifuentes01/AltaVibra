@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Alien",
+    "description": "21cm x 6cm x 4cm.",
+    "category": "Personaje"
+  },
+  {
+    "name": "Anquilosaurio",
+    "description": "19cm x 6.5cm x 8cm.",
+    "category": "Dinosaurio"
+  },
+  {
+    "name": "Araña_bebe",
+    "description": "7.5 x 8.5 x 2",
+    "category": "Insectos"
+  },
+  {
+    "name": "Araña_grande",
+    "description": "12x 15.5 x 4",
+    "category": "Insectos"
+  },
+  {
+    "name": "Araña_media",
+    "description": "10 x 13 x 3",
+    "category": "Insectos"
+  },
+  {
+    "name": "Ballena",
+    "description": "15cm x 9cm x 3cm",
+    "category": "Maritimo"
+  },
+  {
+    "name": "Beluga",
+    "description": "17x 6 x 3",
+    "category": "Maritimo"
+  },
+  {
+    "name": "Camaleon",
+    "description": "21 x 14 patitas abiertas 7 cm patas normales x 4.",
+    "category": "Reptil"
+  },
+  {
+    "name": "Cangrejo",
+    "description": "7.5 x 10 x  2",
+    "category": "Maritimo"
+  },
+  {
+    "name": "Cobra",
+    "description": "84 x 5 x 10",
+    "category": "Reptil"
+  },
+  {
+    "name": "Cocodrilo_bebe",
+    "description": "18cm x 8cm x 3cm",
+    "category": "Reptil"
+  },
+  {
+    "name": "Cocodrilo",
+    "description": "35cm x 9cm x 4cm",
+    "category": "Reptil"
+  },
+  {
+    "name": "Delfin",
+    "description": "13 x 6.5 x 4",
+    "category": "Maritimo"
+  },
+  {
+    "name": "Dilofosaurio",
+    "description": "12 x 10 x 7",
+    "category": "Dinosaurio"
+  },
+  {
+    "name": "Dragon_alas_rigidas",
+    "description": "36.5 x 7.5 x 7",
+    "category": "Dragones"
+  },
+  {
+    "name": "Dragon_bebe",
+    "description": "19.5 x 5 x 3",
+    "category": "Dragones"
+  },
+  {
+    "name": "Dragon_cristal",
+    "description": "47cm x 33cm (alas extendidas) x 11 cm (alto de alas) 6cm (sin alas)",
+    "category": "Dragones"
+  },
+  {
+    "name": "Dragon_toro",
+    "description": "39.5 x 8 x 4.5",
+    "category": "Dragones"
+  },
+  {
+    "name": "Dragon_de_hojas",
+    "description": "35 x 13 x 4",
+    "category": "Dragones"
+  },
+  {
+    "name": "Dragon_de_rosas",
+    "description": "36.5 x 27 ( alas abierta) 15 alas cerradas x 10 alto",
+    "category": "Dragones"
+  },
+  {
+    "name": "Dragon_imperial",
+    "description": "69 x 15 x 15.5",
+    "category": "Dragones"
+  },
+  {
+    "name": "Erizo_pequeño",
+    "description": "9 x 5.5 x 3",
+    "category": "Mamifero"
+  },
+  {
+    "name": "Iguana",
+    "description": "31cm x 17cm x 7cm",
+    "category": "Reptil"
+  },
+  {
+    "name": "Lago_ness",
+    "description": "20.5cm x 10.5cm x 9cm",
+    "category": "Personajes"
+  },
+  {
+    "name": "Leon",
+    "description": "18 x 6 x 12",
+    "category": "Mamifero"
+  },
+  {
+    "name": "Pulpo",
+    "description": "12 x 12 x 3.5",
+    "category": "Maritimo"
+  },
+  {
+    "name": "Rana_rey_y_reina",
+    "description": "11 x 14 x 8",
+    "category": "Personajes"
+  },
+  {
+    "name": "Robot",
+    "description": "18 x 8 x 3",
+    "category": "Personajes"
+  },
+  {
+    "name": "Robot_F",
+    "description": "16 x 7 x 2.5",
+    "category": "Personajes"
+  },
+  {
+    "name": "Serpiente",
+    "description": "82 x 2 x1.5",
+    "category": "Reptil"
+  },
+  {
+    "name": "Tiburon",
+    "description": "15.5 x 5 x 4",
+    "category": "Maritimo"
+  },
+  {
+    "name": "Tiburon_martillo",
+    "description": "12 x 7 x 4.5",
+    "category": "Maritimo"
+  },
+  {
+    "name": "Triceratop_con_boton",
+    "description": "19 x 5.5 x 7",
+    "category": "Mamifero"
+  },
+  {
+    "name": "Tortuga",
+    "description": "10 x 6 x 9",
+    "category": "Reptil"
+  },
+  {
+    "name": "Trex",
+    "description": "12cm x 6cm  x 11cm",
+    "category": "Dinosaurio"
+  },
+  {
+    "name": "Triceratop",
+    "description": "16 x 7 x 8.5",
+    "category": "Dinosaurio"
+  },
+  {
+    "name": "Zorro",
+    "description": "16 x 4.5 x 9 cm",
+    "category": "Mamifero"
+  }
+]

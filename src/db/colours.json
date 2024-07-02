@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Amarillo común",
+    "value": "#F5E54E"
+  },
+  {
+    "name": "Amarillo flúor",
+    "value": "#E3F20A"
+  },
+  {
+    "name": "Azul",
+    "value": "#044DD8"
+  },
+  {
+    "name": "Blanco",
+    "value": "#FCFFFF"
+  },
+  {
+    "name": "Celeste",
+    "value": "#00E2F8"
+  },
+  {
+    "name": "Gris",
+    "value": "#7E9DB3"
+  },
+  {
+    "name": "Marrón",
+    "value": "#331E1C"
+  },
+  {
+    "name": "Naranja común",
+    "value": "#EA981C"
+  },
+  {
+    "name": "Naranja flúor",
+    "value": "#FF7A00"
+  },
+  {
+    "name": "Negro",
+    "value": "#202026"
+  },
+  {
+    "name": "Petrolio",
+    "value": "#0D0F29"
+  },
+  {
+    "name": "Rojo",
+    "value": "#DC0507"
+  },
+  {
+    "name": "Rosa",
+    "value": "#E33FD4"
+  },
+  {
+    "name": "Verde",
+    "value": "#01B373"
+  },
+  {
+    "name": "Verde flúor",
+    "value": "#30DA04"
+  },
+  {
+    "name": "Violeta",
+    "value": "#6C70BA"
+  }
+]
