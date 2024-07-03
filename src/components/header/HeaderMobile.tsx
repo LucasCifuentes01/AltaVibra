@@ -36,7 +36,9 @@ const HeaderMobile = ({
         <Box onClick={() => onOpen()} flex="1">
           <HamburgerIcon w="50px" h="50px" />
         </Box>
-        <Logo />
+        <Box onClick={() => handleClick("/")}>
+          <Logo />
+        </Box>
         <Box flex="1"></Box>
       </HStack>
       <Modal size="full" isOpen={isOpen} onClose={onClose}>

@@ -1,5 +1,5 @@
 import Logo from "@/styles/svg/Logo";
-import { Button, HStack } from "@chakra-ui/react";
+import { Box, Button, HStack } from "@chakra-ui/react";
 import { IHeader } from ".";
 
 const HeaderDesktop = ({
@@ -27,7 +27,9 @@ const HeaderDesktop = ({
           Productos
         </Button>
       </HStack>
-      <Logo />
+      <Box cursor="pointer" onClick={() => handleClick("/")}>
+        <Logo />
+      </Box>
       <HStack flex="1" gap="48px" justifyContent="flex-end">
         <Button variant="link" onClick={handleClickByProccess}>
           Proceso de compra

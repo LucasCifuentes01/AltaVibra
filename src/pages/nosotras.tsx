@@ -1,16 +1,18 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import { Heading, Text, VStack } from "@chakra-ui/react";
+import { Box, Heading, Text, VStack } from "@chakra-ui/react";
 import Image from "next/image";
 
 import carpa from "@/styles/images/carpa.png";
 import useBreakpoints from "@/hooks/useBreakpoints";
+import BackButton from "@/components/back-button";
 
 export default function Nosotras() {
   const { isMobile } = useBreakpoints();
   return (
-    <VStack gap="32px">
+    <VStack>
       <Header />
+      <BackButton />
       <Heading>Nosotras</Heading>
       <VStack
         alignItems="flex-start"
@@ -67,7 +69,9 @@ export default function Nosotras() {
         </Text>
       </VStack>
 
-      <Image src={carpa} alt="carpa" />
+      <Box paddingX="16px" marginBottom="32px">
+        <Image src={carpa} alt="carpa" />
+      </Box>
       <Footer />
     </VStack>
   );

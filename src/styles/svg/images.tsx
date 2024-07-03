@@ -18,12 +18,12 @@ import dragon_toro from "@/styles/images/Dragon_toro.jpg";
 import dragon_de_hojas from "@/styles/images/Dragon_de_hojas.jpg";
 import dragon_de_rosas_con_alas from "@/styles/images/Dragon_de_rosas_con_alas.jpg";
 import dragon_imperial from "@/styles/images/Dragon_imperial.jpg";
-import erizo_pequeño from "@/styles/images/Erizo_pequeño.jpg";
+import erizo_grande from "@/styles/images/Erizo_grande.jpg";
 import iguana from "@/styles/images/Iguana.jpg";
 import lago_ness from "@/styles/images/Lago_ness.jpeg";
 import leon from "@/styles/images/Lago_ness.jpeg";
 import pulpo from "@/styles/images/Pulpo.jpg";
-import rana_rey_y_reina from "@/styles/images/Rana_rey_y_reina.jpg";
+import rana_Reyes from "@/styles/images/Rana_Reyes.jpg";
 import robot from "@/styles/images/Robot.jpg";
 import robot_F from "@/styles/images/Robot_F.jpg";
 import serpiente from "@/styles/images/Serpiente.jpg";
@@ -32,10 +32,10 @@ import tiburon_martillo from "@/styles/images/Tiburon_martillo.jpg";
 import tortuga from "@/styles/images/Tortuga.jpg";
 import trex from "@/styles/images/Trex.jpg";
 import triceratop from "@/styles/images/Triceratop.jpg";
-import triceratop_con_boton from "@/styles/images/Triceratop_con_boton.jpg";
+import triceratop_con_boton from "@/styles/images/Triceratop_con_boton.jpeg";
 import zorro from "@/styles/images/Zorro.jpg";
 import mascara_azul from "@/styles/images/Mascara_azul.jpeg";
-import axolote_llavero from "@/styles/images/Axolote_llavero.jpg";
+import axolote_llavero from "@/styles/images/Axolote_llavero.jpeg";
 import broncosaurio_llavero from "@/styles/images/Broncosaurio_llavero.jpg";
 import caracol_llavero from "@/styles/images/Caracol_llavero.jpg";
 import cocodrilo_llavero from "@/styles/images/Cocodrilo_llavero.jpg";
@@ -57,6 +57,9 @@ import lagartija_llavero from "@/styles/images/Lagartija_llavero.jpg";
 import pingüino_llavero from "@/styles/images/Pingüino_llavero.jpg";
 import rana_llavero from "@/styles/images/Rana_llavero.jpg";
 import tiburon_llavero from "@/styles/images/Tiburon_llavero.jpg";
+import carnotauro from "@/styles/images/Carnotauro.jpg";
+import diloposaurio from "@/styles/images/Diloposaurio.jpg";
+import tigre from "@/styles/images/Tigre.jpg";
 
 import Image from "next/image";
 import css from "./images.module.css";
@@ -84,12 +87,12 @@ export const IMAGE_MAP = {
   Dragon_de_hojas: dragon_de_hojas,
   Dragon_de_rosas: dragon_de_rosas_con_alas,
   Dragon_imperial: dragon_imperial,
-  Erizo_pequeño: erizo_pequeño,
+  Erizo_grande: erizo_grande,
   Iguana: iguana,
   Lago_ness: lago_ness,
   Leon: leon,
   Pulpo: pulpo,
-  Rana_rey_y_reina: rana_rey_y_reina,
+  Rana_Reyes: rana_Reyes,
   Robot: robot,
   Robot_F: robot_F,
   Serpiente: serpiente,
@@ -123,6 +126,9 @@ export const IMAGE_MAP = {
   Pingüino_llavero: pingüino_llavero,
   Rana_llavero: rana_llavero,
   Tiburon_llavero: tiburon_llavero,
+  Carnotauro: carnotauro,
+  Diloposaurio: diloposaurio,
+  Tigre: tigre,
 };
 
 export type KnownImageValues = keyof typeof IMAGE_MAP;
