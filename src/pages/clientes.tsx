@@ -1,22 +1,27 @@
 import CommentCard from "@/components/CommentCard.tsx";
+import BackButton from "@/components/back-button";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
-import useBreakpoints from "@/hooks/useBreakpoints";
 import { HStack, Heading, Text, VStack } from "@chakra-ui/react";
 
 export default function Clients() {
-  const { isMobile } = useBreakpoints();
   return (
-    <VStack gap="32px">
+    <VStack>
       <Header />
-      <VStack>
+      <BackButton />
+      <VStack marginBottom="32px">
         <Heading>Comentarios de clientes</Heading>
         <Text textAlign="center">
           ¡Gracias a nuestros increíbles clientes por sus comentarios y
           elegirnos!
         </Text>
       </VStack>
-      <HStack paddingX={isMobile ? "16px" : ""} flexWrap="wrap" gap="32px">
+      <HStack
+        justifyContent="center"
+        paddingX="16px"
+        flexWrap="wrap"
+        gap="32px"
+      >
         <CommentCard
           name="Anubis"
           location="Córdoba, Argentina"

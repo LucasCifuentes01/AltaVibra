@@ -1,3 +1,4 @@
+import BackButton from "@/components/back-button";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import OurProducts from "@/components/our-products";
@@ -53,6 +54,8 @@ export default function ProductDetail({ id }: IProps) {
   return (
     <VStack>
       <Header />
+
+      <BackButton />
       {isMobile ? (
         <VStack paddingX="16px">
           <VStack alignItems="flex-start">

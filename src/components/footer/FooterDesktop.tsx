@@ -2,6 +2,7 @@ import { contactLinks } from "@/constants/contacts";
 import { footerLinks } from "@/constants/footerLinks";
 import Icon from "@/styles/svg";
 import BigLogoSVG from "@/styles/svg/BigLogoSVG";
+import { redirectOutSide } from "@/util/redirectOutSideBlank";
 import {
   Grid,
   GridItem,
@@ -36,7 +37,13 @@ const FooterDesktop = () => {
           <Heading fontSize="20px"> Contactanos </Heading>
           <VStack gap="16px" alignItems="flex-end">
             {contactLinks.map((link) => (
-              <HStack gap="16px" alignItems="center" key={link.label}>
+              <HStack
+                cursor="pointer"
+                onClick={() => redirectOutSide(link.link)}
+                gap="16px"
+                alignItems="center"
+                key={link.label}
+              >
                 <Text>{link.label}</Text>
                 <Icon name={link.icon} />
               </HStack>

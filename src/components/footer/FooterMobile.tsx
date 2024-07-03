@@ -2,6 +2,7 @@ import { contactLinks } from "@/constants/contacts";
 import { footerLinks } from "@/constants/footerLinks";
 import Icon from "@/styles/svg";
 import BigLogoSVG from "@/styles/svg/BigLogoSVG";
+import { redirectOutSide } from "@/util/redirectOutSideBlank";
 import { Box, HStack, Heading, Text, VStack } from "@chakra-ui/react";
 
 const FooterMobile = () => {
@@ -10,9 +11,15 @@ const FooterMobile = () => {
       <BigLogoSVG />
       <VStack>
         <Heading fontSize="20px"> Contactanos </Heading>
-        <HStack alignItems="center">
+        <HStack gap="24px" alignItems="center">
           {contactLinks.map((link) => (
-            <Icon key={link.label} name={link.icon} />
+            <Box
+              key={link.label}
+              cursor="pointer"
+              onClick={() => redirectOutSide(link.link)}
+            >
+              <Icon name={link.icon} />
+            </Box>
           ))}
         </HStack>
       </VStack>

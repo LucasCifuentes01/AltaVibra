@@ -18,7 +18,7 @@ const OurWork = () => {
       paddingX={isMobile ? "16px" : "0"}
     >
       <Heading>Nuestro trabajo</Heading>
-      <HStack width="100%" flexWrap="wrap" gap="20px">
+      <HStack justifyContent="center" width="100%" flexWrap="wrap" gap="20px">
         <Image src={wokr1} alt="trabajo 1" />
         <Image src={wokr2} alt="trabajo 2" />
       </HStack>
